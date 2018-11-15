@@ -1,4 +1,42 @@
+body,html{
+    height: 100%;
+    margin: 15px;
+}
 .footerinfo{
     margin: 15px;
     text-align: center;
 }
+.footericon{
+    height: 30px;
+    width: 30px;
+}
+header{
+    height: min-content;
+}
+.parentheight{
+    height: 100%;
+}
+#headerimg{
+    width: 300px;
+}
+.tabs>input{
+    display: none;
+}
+.tabs>div{
+    display: none;
+}
+hr{
+    background-color: Khaki;
+    height: 2px;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    font-size: 20pt;
+    cursor: pointer;
+}
+.tabs>input:checked + label {
+    color: rgb(136, 77, 214);
+}
+#tab_11:checked ~ #txt_1,
+#tab_12:checked ~ #txt_2 { display: block; }
