@@ -2,6 +2,11 @@ body,html{
     height: 100%;
     margin: 15px;
 }
+.content{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 50px;
+}
 .footerinfo{
     margin: 15px;
     text-align: center;

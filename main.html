@@ -36,40 +36,32 @@
               <input type="radio" name="level-2" value="" id="tab_22">
               <label for="tab_22">Из своего интернет-банка</label>
               <div id="txt_21">
-                <form>
-                  <div class="container no-margin">
-                    <div class="row">
-                      <div class="col-sm-3">                        
-                        <div>
-                          <input class="input-block" required pattern="[0-9]{16}" type="text"
-                          id="card-number" placeholder="Номер карты">
-                          <input class="input-block" required pattern="([0-9]|0[0-9]|1[0-2])/[1-9][0-9]"
-                          type="text" placeholder="ММ/ГГ">
-                          <input class="input-block" required pattern="[0-9]{3}"
-                          type="text" placeholder="CVC">
-                        </div>                        
-                      </div>
-                      <div class="col-sm-9">
-                        <div>
-                          <div>
-                            <label class="other-info" for="sum">Сумма</label>
-                            <input required id="sum" type="text" placeholder="от 1 000 до 75 000 ₽">
-                          </div>
-                          <div>
-                            <label class="other-info" for="comment">Комментарий</label>
-                            <input required id="comment" pattern=".{0,150}" type="text" placeholder="до 150 символов">
-                          </div>
-                          <div>
-                            <label class="other-info" for="mail">Ваша эл.почта</label>
-                            <input required id="mail" type="email">                          
-                          </div>
-                          <div class="form-group form-check">
-                            <button type="submit" class="btn btn-primary">Заплатить</button>
-                          </div>
-                        </div>
-                      </div>
+                <form class="content">
+                  <div class="info data">
+                      <input class="input-block" required pattern="[0-9]{16}" type="text"
+                      id="card-number" placeholder="Номер карты">
+                      <input class="input-block" required pattern="([0-9]|0[0-9]|1[0-2])/[1-9][0-9]"
+                      type="text" placeholder="ММ/ГГ">
+                      <input class="input-block" required pattern="[0-9]{3}"
+                      type="text" placeholder="CVC">
                     </div>
-                  </div>
+                  <div class="info">
+                      <div>
+                        <label class="other-info" for="sum">Сумма</label>
+                        <input required id="sum" type="text" placeholder="от 1 000 до 75 000 ₽">
+                      </div>
+                      <div>
+                        <label class="other-info" for="comment">Комментарий</label>
+                        <input required id="comment" pattern=".{0,150}" type="text" placeholder="до 150 символов">
+                      </div>
+                      <div>
+                        <label class="other-info" for="mail">Ваша эл.почта</label>
+                        <input required id="mail" type="email">                          
+                      </div>
+                      <div class="form-group form-check">
+                        <button type="submit" class="btn btn-primary">Заплатить</button>
+                      </div>
+                    </div> 
                 </form>
               </div>
           </div>
@@ -101,5 +93,3 @@
     </footer>
   </body>
 </html>
-
-
