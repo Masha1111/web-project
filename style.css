@@ -11,14 +11,32 @@ body,html{
     margin: 15px;
     text-align: center;
 }
+.logo{
+    height: 30px;
+    width: 40px;
+    float: right;
+    margin:10px;
+}
+#card-number{
+    width: 100%;
+    margin-top: 40px;
+}
+#card_dates{
+    width: 70%;
+}
+#cvc{
+    width: 20%;
+}
 .footericon{
     height: 30px;
     width: 30px;
 }
 .other-info{
-    width: 110px;
+    margin-top: 10px;
+    width: 115px;
+    font-weight: bold;
 }
-input{
+input, select{
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -29,6 +47,17 @@ header{
 }
 .parentheight{
     height: 100%;
+}
+.labels{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: max-content auto;
+}
+.labels>label{
+    color: rgb(146, 139, 139);
+}
+.labels>input, #nds{
+    max-width: 250px;;
 }
 #headerimg{
     width: 300px;
@@ -65,6 +94,7 @@ hr{
 }
 #tab_11:checked ~ #txt_11,
 #tab_21:checked ~ #txt_21,
+#tab_22:checked ~ #txt_22,
 #tab_12:checked ~ #txt_12 { display: block; }
 
 .data>input{
@@ -75,8 +105,10 @@ hr{
     border-radius: 10px;
     box-shadow: 0 0 10px;
     margin-bottom: 20px;
+    width: 400px;
+    padding: 10px;
+    min-height: 230px;
 }
-
 button{
     background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
    background: -webkit-gradient(linear, 0 0, 0  100%, from(rgb(240, 208, 244)), to(#D0ECF4), color-stop(0.5, rgb(219, 158, 248)));
@@ -88,4 +120,8 @@ button{
    border-radius: 5px;
    border: 1px solid #666;
   }
-
+@media (max-width: 710px){
+    .content{
+        grid-template-columns: none;
+    }
+}
