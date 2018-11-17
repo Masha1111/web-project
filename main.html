@@ -1,64 +1,105 @@
 <!DOCTYPE html>
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet">
-  <title>УРАЛТЕСТ</title>
-</head>
-<body>
-  <header>
-      <div class="container parentheight">
-          <div class="row parentheight">
-            <div class="col-sm-7 parentheight">
-              <h4>ФБУ «УРАЛТЕСТ»</h4>
-              <p>+7 (343) 236-30-15</p>
-              <p><a href="mailto:uraltest@uraltest.ru">uraltest@uraltest.ru</a></p>
-              <p><a href="http://www.uraltest.ru/">http://www.uraltest.ru/</a></p>
-              <p><a href="http://www.uraltest.ru/o_kompanii/">Информация о компании</a></p>
-              <p><a href="http://www.uraltest.ru/o_kompanii/abankovskie_rekvizityi/">Показать реквизиты</a></p>
-            </div>
-            <div class="col-sm-5 parentheight">
-                <img id="headerimg" src="https://github.com/Masha1111/web-project/blob/master/icons/logo.jpg?raw=true" alt="logo">
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>УРАЛТЕСТ</title>
+  </head>
+  <body>
+    <header>
+        <div class="container parentheight">
+            <div class="row parentheight">
+              <div class="col-sm-7 parentheight">
+                <h4>ФБУ «УРАЛТЕСТ»</h4>
+                <p>+7 (343) 236-30-15</p>
+                <p><a href="mailto:uraltest@uraltest.ru">uraltest@uraltest.ru</a></p>
+                <p><a href="http://www.uraltest.ru/">http://www.uraltest.ru/</a></p>
+                <p><a href="http://www.uraltest.ru/o_kompanii/">Информация о компании</a></p>
+                <p><a href="http://www.uraltest.ru/o_kompanii/abankovskie_rekvizityi/">Показать реквизиты</a></p>
+              </div>
+              <div class="col-sm-5 parentheight">
+                  <img id="headerimg" src="https://github.com/Masha1111/web-project/blob/master/icons/logo.jpg?raw=true" alt="logo">
+              </div>
             </div>
           </div>
-        </div>
-    <hr>
-  </header>
-  <main>
-    <div class="tabs">
-        <input type="radio" name="level-1" value="" id="tab_11" checked>
-        <label for="tab_11">Заплатить</label>
-        <input type="radio" name="level-1" value="" id="tab_12">
-        <label for="tab_12">Запросить платеж</label>
-        <div class="tabs" id="txt_1">
-            <input type="radio" name="level-2" value="" id="tab_21" checked>
-            <label for="tab_21">С карты любого банка</label>
-            <input type="radio" name="level-2" value="" id="tab_22">
-            <label for="tab_22">Из своего интернет-банка</label>
-        </div>
-        <div id="txt_2">
-            <p>Вторая вкладка</p>
-        </div>
-    </div>
-  </main>
-  <footer>
-    <hr>
-    <h4 class="footerinfo">О компании "Уралтест"</h4>
-    <div class="footerinfo">Федеральное бюджетное учреждение «Государственный региональный центр стандартизации, метрологии и испытаний в Свердловской области» (ФБУ «УРАЛТЕСТ») является федеральным бюджетным учреждением, находящимся в ведении федерального органа исполнительной власти - Федерального агентства по техническому регулированию и метрологии (РОССТАНДАРТА). ФБУ "УРАЛТЕСТ" осуществляет полномочия в Свердловской области в сфере технического регулирования и метрологии, включая стандартизацию, обеспечение единства измерений, оценку соответствия, аккредитацию, испытания и пропаганду политики Федерального агентства по техническому регулированию и метрологии.</div>
-    <div>
-      <a target="_blank"
-        href="https://twitter.com/intent/tweet?status=%D0%9E%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20http%3A%2F%2Fwww.uraltest.ru%2Fo_kompanii%2F">
-        <img class="footericon" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTG9nb19GSVhFRCIgZGF0YS1uYW1lPSJMb2dvIOKAlCBGSVhFRCIgeG1sbnM9Imh0%0D%0AdHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+PGRlZnM+PHN0%0D%0AeWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiMxZGExZjI7fTwvc3R5bGU+PC9kZWZz%0D%0APjx0aXRsZT5Ud2l0dGVyX0xvZ29fQmx1ZTwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0%0D%0AaD0iMzAwIiBoZWlnaHQ9IjMwMCIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE1My42MiwzMDEu%0D%0ANTljOTQuMzQsMCwxNDUuOTQtNzguMTYsMTQ1Ljk0LTE0NS45NCwwLTIuMjIsMC00LjQzLS4xNS02%0D%0ALjYzQTEwNC4zNiwxMDQuMzYsMCwwLDAsMzI1LDEyMi40N2ExMDIuMzgsMTAyLjM4LDAsMCwxLTI5%0D%0ALjQ2LDguMDcsNTEuNDcsNTEuNDcsMCwwLDAsMjIuNTUtMjguMzcsMTAyLjc5LDEwMi43OSwwLDAs%0D%0AMS0zMi41NywxMi40NSw1MS4zNCw1MS4zNCwwLDAsMC04Ny40MSw0Ni43OEExNDUuNjIsMTQ1LjYy%0D%0ALDAsMCwxLDkyLjQsMTA3LjgxYTUxLjMzLDUxLjMzLDAsMCwwLDE1Ljg4LDY4LjQ3QTUwLjkxLDUw%0D%0ALjkxLDAsMCwxLDg1LDE2OS44NmMwLC4yMSwwLC40MywwLC42NWE1MS4zMSw1MS4zMSwwLDAsMCw0%0D%0AMS4xNSw1MC4yOCw1MS4yMSw1MS4yMSwwLDAsMS0yMy4xNi44OCw1MS4zNSw1MS4zNSwwLDAsMCw0%0D%0ANy45MiwzNS42MiwxMDIuOTIsMTAyLjkyLDAsMCwxLTYzLjcsMjJBMTA0LjQxLDEwNC40MSwwLDAs%0D%0AMSw3NSwyNzguNTVhMTQ1LjIxLDE0NS4yMSwwLDAsMCw3OC42MiwyMyIvPjwvc3ZnPg==">
-      </a>
-      <a target="_blank"
-        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fsrc%3Dsp%26u%3Dhttp%253A%252F%252Fwww.uraltest.ru%252Fo_kompanii%252F%26t%3D%25D0%259E%2B%25D0%25BA%25D0%25BE%25D0%25BC%25D0%25BF%25D0%25B0%25D0%25BD%25D0%25B8%25D0%25B8%26description%26picture&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=ru_RU">
-        <img class="footericon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3Lncz%0D%0ALm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsi%0D%0AIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIyNjYuODkzcHgiIGhlaWdodD0iMjY2Ljg5NXB4IiB2%0D%0AaWV3Qm94PSIwIDAgMjY2Ljg5MyAyNjYuODk1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAy%0D%0ANjYuODkzIDI2Ni44OTUiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGlkPSJCbHVlXzFf%0D%0AIiBmaWxsPSIjM0M1QTk5IiBkPSJNMjQ4LjA4MiwyNjIuMzA3YzcuODU0LDAsMTQuMjIzLTYuMzY5%0D%0ALDE0LjIyMy0xNC4yMjVWMTguODEyCgljMC03Ljg1Ny02LjM2OC0xNC4yMjQtMTQuMjIzLTE0LjIy%0D%0ANEgxOC44MTJjLTcuODU3LDAtMTQuMjI0LDYuMzY3LTE0LjIyNCwxNC4yMjR2MjI5LjI3YzAsNy44%0D%0ANTUsNi4zNjYsMTQuMjI1LDE0LjIyNCwxNC4yMjUKCUgyNDguMDgyeiIvPgo8cGF0aCBpZD0iZiIg%0D%0AZmlsbD0iI0ZGRkZGRiIgZD0iTTE4Mi40MDksMjYyLjMwN3YtOTkuODAzaDMzLjQ5OWw1LjAxNi0z%0D%0AOC44OTVoLTM4LjUxNVY5OC43NzdjMC0xMS4yNjEsMy4xMjctMTguOTM1LDE5LjI3NS0xOC45MzUK%0D%0ACWwyMC41OTYtMC4wMDlWNDUuMDQ1Yy0zLjU2Mi0wLjQ3NC0xNS43ODgtMS41MzMtMzAuMDEyLTEu%0D%0ANTMzYy0yOS42OTUsMC01MC4wMjUsMTguMTI2LTUwLjAyNSw1MS40MTN2MjguNjg0aC0zMy41ODV2%0D%0AMzguODk1aDMzLjU4NQoJdjk5LjgwM0gxODIuNDA5eiIvPgo8L3N2Zz4K">
-      </a>
-      <a target="_blank" href="https://vk.com/share.php?url=http%3A%2F%2Fwww.uraltest.ru%2Fo_kompanii%2F&title=%D0%9E%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8&description=&image=">
-        <img class="footericon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdo%0D%0AdD0iMTkyIiB2aWV3Qm94PSIwIDAgMTkyIDE5MiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxl%0D%0APSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiM1MTgxQjgiIGQ9Ik02Ni41NiwwIEMxMjAuMzIs%0D%0AMCA3MS42OCwwIDEyNS40NCwwIEMxNzkuMiwwIDE5MiwxMi44IDE5Miw2Ni41NiBDMTkyLDEyMC4z%0D%0AMiAxOTIsNzEuNjggMTkyLDEyNS40NCBDMTkyLDE3OS4yIDE3OS4yLDE5MiAxMjUuNDQsMTkyIEM3%0D%0AMS42OCwxOTIgMTIwLjMyLDE5MiA2Ni41NiwxOTIgQzEyLjgsMTkyIDAsMTc5LjIgMCwxMjUuNDQg%0D%0AQzAsNzEuNjggMCw5Ni41ODAzMjkgMCw2Ni41NiBDMCwxMi44IDEyLjgsMCA2Ni41NiwwIFoiLz4K%0D%0AICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNTcuMjMzOTkzLDY2LjE0NjIyMTEgQzE1OC4x%0D%0AMjM1NTcsNjMuMTc5NzcxOSAxNTcuMjMzOTk0LDYxIDE1My4wMDAyNDQsNjEgTDEzOS4wMDAyNDQs%0D%0ANjEgQzEzNS40NDA1MDUsNjEgMTMzLjc5OTQxNSw2Mi44ODMwMDM1IDEzMi45MDkzNTYsNjQuOTU5%0D%0AMzk0NSBDMTMyLjkwOTM1Niw2NC45NTkzOTQ1IDEyNS43ODk4NzgsODIuMzEyOTM3MyAxMTUuNzA0%0D%0AMTk4LDkzLjU4NTE5NzQgQzExMi40NDEyMjcsOTYuODQ4MTY4MSAxMTAuOTU3ODc5LDk3Ljg4NjM2%0D%0AMzYgMTA5LjE3ODAwOSw5Ny44ODYzNjM2IEMxMDguMjg4MTk4LDk3Ljg4NjM2MzYgMTA3LDk2Ljg0%0D%0AODE2ODEgMTA3LDkzLjg4MTk2NTggTDEwNyw2Ni4xNDYyMjExIEMxMDcsNjIuNTg2NDgyIDEwNS45%0D%0ANjY5NCw2MSAxMDMuMDAwMjQ0LDYxIEw4MS4wMDAyNDQxLDYxIEM3OC43NzU3MTU4LDYxIDc3LjQz%0D%0ANzg2NjksNjIuNjUyMTU2MiA3Ny40Mzc4NjY5LDY0LjIxNzk2NzQgQzc3LjQzNzg2NjksNjcuNTky%0D%0ANTM0OCA4Mi40ODA0NjAzLDY4LjM3MDc0OTQgODMuMDAwMjQ0MSw3Ny44NjMzODY5IEw4My4wMDAy%0D%0ANDQxLDk4LjQ3OTkwMDMgQzgzLjAwMDI0NDEsMTAzIDgyLjE4MzkzODgsMTAzLjgxOTUwOSA4MC40%0D%0AMDQwNjkzLDEwMy44MTk1MDkgQzc1LjY1Nzk5NzQsMTAzLjgxOTUwOSA2NC4xMTMxNjQ3LDg2LjM4%0D%0AODQ0MSA1Ny4yNjYwMTIyLDY2LjQ0Mjc0MjYgQzU1LjkyNDEzNTMsNjIuNTY1OTg5NyA1NC41Nzgy%0D%0ANTM1LDYxIDUxLjAwMDI0NDEsNjEgTDM3LjAwMDI0NDEsNjEgQzMzLjAwMDI0NDEsNjEgMzIuMjAw%0D%0AMTk1Myw2Mi44ODMwMDM1IDMyLjIwMDE5NTMsNjQuOTU5Mzk0NSBDMzIuMjAwMTk1Myw2OC42Njc1%0D%0AMTc4IDM2Ljk0NjUxNDEsODcuMDU5MjU2IDU0LjI5OTgwOTksMTExLjM4MzY0NiBDNjUuODY4NTkx%0D%0ANSwxMjcuOTk1MjY4IDgyLjE2ODI0NDksMTM3IDk3LjAwMDI0NDEsMTM3IEMxMDUuODk5MzQ1LDEz%0D%0ANyAxMDcuMDAwMjQ0LDEzNSAxMDcuMDAwMjQ0LDEzMS41NTUwMDcgTDEwNy4wMDAyNDQsMTE5IEMx%0D%0AMDcuMDAwMjQ0LDExNSAxMDcuODQzMjkyLDExNC4yMDE3MTEgMTEwLjY2MTM1NywxMTQuMjAxNzEx%0D%0AIEMxMTIuNzM3NzQ5LDExNC4yMDE3MTEgMTE2LjI5NzQ4OCwxMTUuMjM5OTA2IDEyNC42MDM1NDUs%0D%0AMTIzLjI0OTE5NiBDMTM0LjA5NTkzNiwxMzIuNzQxNTg2IDEzNS42NjA4ODIsMTM3IDE0MS4wMDAy%0D%0ANDQsMTM3IEwxNTUuMDAwMjQ0LDEzNyBDMTU5LjAwMDI0NCwxMzcgMTYxLjAwMDI0NCwxMzUgMTU5%0D%0ALjg0NjQ3NSwxMzEuMDUzMTEyIEMxNTguNTgzOTA2LDEyNy4xMTk0MTEgMTU0LjA1MTgwMiwxMjEu%0D%0ANDEyMTM1IDE0OC4wMzgxMjQsMTE0LjY0NjYxNyBDMTQ0Ljc3NDkwNiwxMTAuNzkwMzU2IDEzOS44%0D%0AODA0NSwxMDYuNjM3NTc0IDEzOC4zOTcxMDIsMTA0LjU2MDY4OSBDMTM2LjMyMDcxMSwxMDEuODkx%0D%0AMjU1IDEzNi45MTQwMDEsMTAwLjcwNDQyOSAxMzguMzk3MTAyLDk4LjMzMTUxNjIgQzEzOC4zOTcx%0D%0AMDIsOTguMzMxNTE2MiAxNTUuNDU0MTIzLDc0LjMwMzY0NzggMTU3LjIzMzk5Myw2Ni4xNDYyMjEx%0D%0AIFoiLz4KICA8L2c+Cjwvc3ZnPgo=">
-      </a>
-      <a target="_blank" href="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.deprecated=1&st.shareUrl=http%3A%2F%2Fwww.uraltest.ru%2Fo_kompanii%2F">
-        <img class="footericon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE1LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3Lncz%0D%0ALm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsi%0D%0AIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIzODkuNDA0cHgiIGhlaWdodD0iMzg3LjQxN3B4IiB2%0D%0AaWV3Qm94PSIwIDAgMzg5LjQwNCAzODcuNDE3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAz%0D%0AODkuNDA0IDM4Ny40MTciCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZmlsbD0i%0D%0AI0ZBQUI2MiIgZD0iTTM4OS40MDQsMzMwLjcyNGMwLDMxLjMxMi0yNS4zODMsNTYuNjkzLTU2LjY5%0D%0AMyw1Ni42OTNINTYuNjkzQzI1LjM4MiwzODcuNDE3LDAsMzYyLjAzNiwwLDMzMC43MjRWNTYuNjkz%0D%0ACgkJQzAsMjUuMzgyLDI1LjM4MiwwLDU2LjY5MywwaDI3Ni4wMThjMzEuMzExLDAsNTYuNjkzLDI1%0D%0ALjM4Miw1Ni42OTMsNTYuNjkzVjMzMC43MjR6Ii8+Cgk8cGF0aCBmaWxsPSIjRjc5MzFFIiBkPSJN%0D%0AMzg3LjQwNCwzMjkuMzE3YzAsMzAuOTg5LTI1LjEyMiw1Ni4xMS01Ni4xMTEsNTYuMTFINTguMTFj%0D%0ALTMwLjk4OSwwLTU2LjExLTI1LjEyMS01Ni4xMS01Ni4xMVY1OC4xCgkJQzIsMjcuMTExLDI3LjEy%0D%0AMiwxLjk5LDU4LjExLDEuOTloMjczLjE4M2MzMC45ODksMCw1Ni4xMTEsMjUuMTIyLDU2LjExMSw1%0D%0ANi4xMVYzMjkuMzE3eiIvPgoJPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE5NC40ODUsNTcuOTAx%0D%0AYy0zOC41OTMsMC02OS44NzgsMzEuMjg2LTY5Ljg3OCw2OS44NzhjMCwzOC41OTMsMzEuMjg1LDY5%0D%0ALjg4MSw2OS44NzgsNjkuODgxCgkJczY5Ljg3OC0zMS4yODgsNjkuODc4LTY5Ljg4MUMyNjQuMzYz%0D%0ALDg5LjE4NywyMzMuMDc4LDU3LjkwMSwxOTQuNDg1LDU3LjkwMXogTTE5NC40ODUsMTU2LjY2NwoJ%0D%0ACWMtMTUuOTUzLDAtMjguODg2LTEyLjkzNC0yOC44ODYtMjguODg3czEyLjkzMy0yOC44ODYsMjgu%0D%0AODg2LTI4Ljg4NnMyOC44ODYsMTIuOTMzLDI4Ljg4NiwyOC44ODZTMjEwLjQzOCwxNTYuNjY3LDE5%0D%0ANC40ODUsMTU2LjY2NwoJCXoiLz4KCTxnPgoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yMTku%0D%0AMTU1LDI1My4yNjJjMjcuOTc1LTUuNjk5LDQ0LjczOS0xOC45NDcsNDUuNjI2LTE5LjY1OGM4LjE4%0D%0ANi02LjU2NSw5LjUwMS0xOC41MjMsMi45MzYtMjYuNzEKCQkJYy02LjU2NC04LjE4Ni0xOC41MjEt%0D%0AOS41MDEtMjYuNzA5LTIuOTM3Yy0wLjE3MywwLjE0LTE4LjA1MywxMy44NTYtNDcuNDcyLDEzLjg3%0D%0ANmMtMjkuNDE4LTAuMDItNDcuNjc2LTEzLjczNi00Ny44NDktMTMuODc2CgkJCWMtOC4xODgtNi41%0D%0ANjQtMjAuMTQ1LTUuMjQ5LTI2LjcwOSwyLjkzN2MtNi41NjUsOC4xODctNS4yNSwyMC4xNDUsMi45%0D%0AMzYsMjYuNzFjMC44OTksMC43MjEsMTguMzU1LDE0LjMxNCw0Ny4xMTQsMTkuODc5CgkJCWwtNDAu%0D%0AMDgxLDQxLjg4OGMtNy4yODQsNy41NTQtNy4wNjUsMTkuNTgyLDAuNDg5LDI2Ljg2NmMzLjY4Nywz%0D%0ALjU1NSw4LjQzOSw1LjMyMiwxMy4xODcsNS4zMjJjNC45NzgsMCw5Ljk1MS0xLjk0NSwxMy42Nzkt%0D%0ANS44MTIKCQkJbDM3LjIzNS0zOS42NjVsNDAuOTk2LDM5LjkyMmM3LjQyOCw3LjQxNiwxOS40NTYs%0D%0ANy40MDQsMjYuODctMC4wMjFjNy40MTQtNy40MjYsNy40MDUtMTkuNDU2LTAuMDIxLTI2Ljg3TDIx%0D%0AOS4xNTUsMjUzLjI2MnoiLz4KCQk8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTkzLjUzNiwyMTcu%0D%0AODMyYy0wLjA0NywwLDAuMDQ2LDAuMDAxLDAsMC4wMDJDMTkzLjQ5LDIxNy44MzMsMTkzLjU4Mywy%0D%0AMTcuODMyLDE5My41MzYsMjE3LjgzMnoiLz4KCTwvZz4KPC9nPgo8L3N2Zz4K">
-      </a>
-    </div>
-  </footer>
-</body>
+      <hr>
+    </header>
+    <main>
+      <div class="tabs">
+          <input type="radio" name="level-1" value="" id="tab_11" checked>
+          <label for="tab_11">Заплатить</label>
+          <input type="radio" name="level-1" value="" id="tab_12">
+          <label for="tab_12">Запросить платеж</label>
+          <div class="tabs lowLayer" id="txt_11">
+              <input type="radio" name="level-2" value="" id="tab_21" checked>
+              <label for="tab_21">С карты любого банка</label>
+              <input type="radio" name="level-2" value="" id="tab_22">
+              <label for="tab_22">Из своего интернет-банка</label>
+              <div id="txt_21">
+                <form>
+                  <div class="container no-margin">
+                    <div class="row">
+                      <div class="col-sm-3">                        
+                        <div>
+                          <input class="input-block" required pattern="[0-9]{16}" type="text"
+                          id="card-number" placeholder="Номер карты">
+                          <input class="input-block" required pattern="([0-9]|0[0-9]|1[0-2])/[1-9][0-9]"
+                          type="text" placeholder="ММ/ГГ">
+                          <input class="input-block" required pattern="[0-9]{3}"
+                          type="text" placeholder="CVC">
+                        </div>                        
+                      </div>
+                      <div class="col-sm-9">
+                        <div>
+                          <div>
+                            <label class="other-info" for="sum">Сумма</label>
+                            <input required id="sum" type="text" placeholder="от 1 000 до 75 000 ₽">
+                          </div>
+                          <div>
+                            <label class="other-info" for="comment">Комментарий</label>
+                            <input required id="comment" pattern=".{0,150}" type="text" placeholder="до 150 символов">
+                          </div>
+                          <div>
+                            <label class="other-info" for="mail">Ваша эл.почта</label>
+                            <input required id="mail" type="email">                          
+                          </div>
+                          <div class="form-group form-check">
+                            <button type="submit" class="btn btn-primary">Заплатить</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+          </div>
+          <div id="txt_12">
+              <p>Вторая вкладка</p>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <hr>
+      <h4 class="footerinfo">О компании "Уралтест"</h4>
+      <div class="footerinfo">Федеральное бюджетное учреждение «Государственный региональный центр стандартизации, метрологии и испытаний в Свердловской области» (ФБУ «УРАЛТЕСТ») является федеральным бюджетным учреждением, находящимся в ведении федерального органа исполнительной власти - Федерального агентства по техническому регулированию и метрологии (РОССТАНДАРТА). ФБУ "УРАЛТЕСТ" осуществляет полномочия в Свердловской области в сфере технического регулирования и метрологии, включая стандартизацию, обеспечение единства измерений, оценку соответствия, аккредитацию, испытания и пропаганду политики Федерального агентства по техническому регулированию и метрологии.</div>
+      <div>
+        <a target="_blank"
+          href="https://twitter.com/intent/tweet?status=%D0%9E%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20http%3A%2F%2Fwww.uraltest.ru%2Fo_kompanii%2F">
+          <img class="footericon" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTG9nb19GSVhFRCIgZGF0YS1uYW1lPSJMb2dvIOKAlCBGSVhFRCIgeG1sbnM9Imh0%0D%0AdHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+PGRlZnM+PHN0%0D%0AeWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiMxZGExZjI7fTwvc3R5bGU+PC9kZWZz%0D%0APjx0aXRsZT5Ud2l0dGVyX0xvZ29fQmx1ZTwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0%0D%0AaD0iMzAwIiBoZWlnaHQ9IjMwMCIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE1My42MiwzMDEu%0D%0ANTljOTQuMzQsMCwxNDUuOTQtNzguMTYsMTQ1Ljk0LTE0NS45NCwwLTIuMjIsMC00LjQzLS4xNS02%0D%0ALjYzQTEwNC4zNiwxMDQuMzYsMCwwLDAsMzI1LDEyMi40N2ExMDIuMzgsMTAyLjM4LDAsMCwxLTI5%0D%0ALjQ2LDguMDcsNTEuNDcsNTEuNDcsMCwwLDAsMjIuNTUtMjguMzcsMTAyLjc5LDEwMi43OSwwLDAs%0D%0AMS0zMi41NywxMi40NSw1MS4zNCw1MS4zNCwwLDAsMC04Ny40MSw0Ni43OEExNDUuNjIsMTQ1LjYy%0D%0ALDAsMCwxLDkyLjQsMTA3LjgxYTUxLjMzLDUxLjMzLDAsMCwwLDE1Ljg4LDY4LjQ3QTUwLjkxLDUw%0D%0ALjkxLDAsMCwxLDg1LDE2OS44NmMwLC4yMSwwLC40MywwLC42NWE1MS4zMSw1MS4zMSwwLDAsMCw0%0D%0AMS4xNSw1MC4yOCw1MS4yMSw1MS4yMSwwLDAsMS0yMy4xNi44OCw1MS4zNSw1MS4zNSwwLDAsMCw0%0D%0ANy45MiwzNS42MiwxMDIuOTIsMTAyLjkyLDAsMCwxLTYzLjcsMjJBMTA0LjQxLDEwNC40MSwwLDAs%0D%0AMSw3NSwyNzguNTVhMTQ1LjIxLDE0NS4yMSwwLDAsMCw3OC42MiwyMyIvPjwvc3ZnPg==">
+        </a>
+        <a target="_blank"
+          href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fsrc%3Dsp%26u%3Dhttp%253A%252F%252Fwww.uraltest.ru%252Fo_kompanii%252F%26t%3D%25D0%259E%2B%25D0%25BA%25D0%25BE%25D0%25BC%25D0%25BF%25D0%25B0%25D0%25BD%25D0%25B8%25D0%25B8%26description%26picture&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=ru_RU">
+          <img class="footericon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3Lncz%0D%0ALm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsi%0D%0AIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIyNjYuODkzcHgiIGhlaWdodD0iMjY2Ljg5NXB4IiB2%0D%0AaWV3Qm94PSIwIDAgMjY2Ljg5MyAyNjYuODk1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAy%0D%0ANjYuODkzIDI2Ni44OTUiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGlkPSJCbHVlXzFf%0D%0AIiBmaWxsPSIjM0M1QTk5IiBkPSJNMjQ4LjA4MiwyNjIuMzA3YzcuODU0LDAsMTQuMjIzLTYuMzY5%0D%0ALDE0LjIyMy0xNC4yMjVWMTguODEyCgljMC03Ljg1Ny02LjM2OC0xNC4yMjQtMTQuMjIzLTE0LjIy%0D%0ANEgxOC44MTJjLTcuODU3LDAtMTQuMjI0LDYuMzY3LTE0LjIyNCwxNC4yMjR2MjI5LjI3YzAsNy44%0D%0ANTUsNi4zNjYsMTQuMjI1LDE0LjIyNCwxNC4yMjUKCUgyNDguMDgyeiIvPgo8cGF0aCBpZD0iZiIg%0D%0AZmlsbD0iI0ZGRkZGRiIgZD0iTTE4Mi40MDksMjYyLjMwN3YtOTkuODAzaDMzLjQ5OWw1LjAxNi0z%0D%0AOC44OTVoLTM4LjUxNVY5OC43NzdjMC0xMS4yNjEsMy4xMjctMTguOTM1LDE5LjI3NS0xOC45MzUK%0D%0ACWwyMC41OTYtMC4wMDlWNDUuMDQ1Yy0zLjU2Mi0wLjQ3NC0xNS43ODgtMS41MzMtMzAuMDEyLTEu%0D%0ANTMzYy0yOS42OTUsMC01MC4wMjUsMTguMTI2LTUwLjAyNSw1MS40MTN2MjguNjg0aC0zMy41ODV2%0D%0AMzguODk1aDMzLjU4NQoJdjk5LjgwM0gxODIuNDA5eiIvPgo8L3N2Zz4K">
+        </a>
+        <a target="_blank" href="https://vk.com/share.php?url=http%3A%2F%2Fwww.uraltest.ru%2Fo_kompanii%2F&title=%D0%9E%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8&description=&image=">
+          <img class="footericon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdo%0D%0AdD0iMTkyIiB2aWV3Qm94PSIwIDAgMTkyIDE5MiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxl%0D%0APSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiM1MTgxQjgiIGQ9Ik02Ni41NiwwIEMxMjAuMzIs%0D%0AMCA3MS42OCwwIDEyNS40NCwwIEMxNzkuMiwwIDE5MiwxMi44IDE5Miw2Ni41NiBDMTkyLDEyMC4z%0D%0AMiAxOTIsNzEuNjggMTkyLDEyNS40NCBDMTkyLDE3OS4yIDE3OS4yLDE5MiAxMjUuNDQsMTkyIEM3%0D%0AMS42OCwxOTIgMTIwLjMyLDE5MiA2Ni41NiwxOTIgQzEyLjgsMTkyIDAsMTc5LjIgMCwxMjUuNDQg%0D%0AQzAsNzEuNjggMCw5Ni41ODAzMjkgMCw2Ni41NiBDMCwxMi44IDEyLjgsMCA2Ni41NiwwIFoiLz4K%0D%0AICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNTcuMjMzOTkzLDY2LjE0NjIyMTEgQzE1OC4x%0D%0AMjM1NTcsNjMuMTc5NzcxOSAxNTcuMjMzOTk0LDYxIDE1My4wMDAyNDQsNjEgTDEzOS4wMDAyNDQs%0D%0ANjEgQzEzNS40NDA1MDUsNjEgMTMzLjc5OTQxNSw2Mi44ODMwMDM1IDEzMi45MDkzNTYsNjQuOTU5%0D%0AMzk0NSBDMTMyLjkwOTM1Niw2NC45NTkzOTQ1IDEyNS43ODk4NzgsODIuMzEyOTM3MyAxMTUuNzA0%0D%0AMTk4LDkzLjU4NTE5NzQgQzExMi40NDEyMjcsOTYuODQ4MTY4MSAxMTAuOTU3ODc5LDk3Ljg4NjM2%0D%0AMzYgMTA5LjE3ODAwOSw5Ny44ODYzNjM2IEMxMDguMjg4MTk4LDk3Ljg4NjM2MzYgMTA3LDk2Ljg0%0D%0AODE2ODEgMTA3LDkzLjg4MTk2NTggTDEwNyw2Ni4xNDYyMjExIEMxMDcsNjIuNTg2NDgyIDEwNS45%0D%0ANjY5NCw2MSAxMDMuMDAwMjQ0LDYxIEw4MS4wMDAyNDQxLDYxIEM3OC43NzU3MTU4LDYxIDc3LjQz%0D%0ANzg2NjksNjIuNjUyMTU2MiA3Ny40Mzc4NjY5LDY0LjIxNzk2NzQgQzc3LjQzNzg2NjksNjcuNTky%0D%0ANTM0OCA4Mi40ODA0NjAzLDY4LjM3MDc0OTQgODMuMDAwMjQ0MSw3Ny44NjMzODY5IEw4My4wMDAy%0D%0ANDQxLDk4LjQ3OTkwMDMgQzgzLjAwMDI0NDEsMTAzIDgyLjE4MzkzODgsMTAzLjgxOTUwOSA4MC40%0D%0AMDQwNjkzLDEwMy44MTk1MDkgQzc1LjY1Nzk5NzQsMTAzLjgxOTUwOSA2NC4xMTMxNjQ3LDg2LjM4%0D%0AODQ0MSA1Ny4yNjYwMTIyLDY2LjQ0Mjc0MjYgQzU1LjkyNDEzNTMsNjIuNTY1OTg5NyA1NC41Nzgy%0D%0ANTM1LDYxIDUxLjAwMDI0NDEsNjEgTDM3LjAwMDI0NDEsNjEgQzMzLjAwMDI0NDEsNjEgMzIuMjAw%0D%0AMTk1Myw2Mi44ODMwMDM1IDMyLjIwMDE5NTMsNjQuOTU5Mzk0NSBDMzIuMjAwMTk1Myw2OC42Njc1%0D%0AMTc4IDM2Ljk0NjUxNDEsODcuMDU5MjU2IDU0LjI5OTgwOTksMTExLjM4MzY0NiBDNjUuODY4NTkx%0D%0ANSwxMjcuOTk1MjY4IDgyLjE2ODI0NDksMTM3IDk3LjAwMDI0NDEsMTM3IEMxMDUuODk5MzQ1LDEz%0D%0ANyAxMDcuMDAwMjQ0LDEzNSAxMDcuMDAwMjQ0LDEzMS41NTUwMDcgTDEwNy4wMDAyNDQsMTE5IEMx%0D%0AMDcuMDAwMjQ0LDExNSAxMDcuODQzMjkyLDExNC4yMDE3MTEgMTEwLjY2MTM1NywxMTQuMjAxNzEx%0D%0AIEMxMTIuNzM3NzQ5LDExNC4yMDE3MTEgMTE2LjI5NzQ4OCwxMTUuMjM5OTA2IDEyNC42MDM1NDUs%0D%0AMTIzLjI0OTE5NiBDMTM0LjA5NTkzNiwxMzIuNzQxNTg2IDEzNS42NjA4ODIsMTM3IDE0MS4wMDAy%0D%0ANDQsMTM3IEwxNTUuMDAwMjQ0LDEzNyBDMTU5LjAwMDI0NCwxMzcgMTYxLjAwMDI0NCwxMzUgMTU5%0D%0ALjg0NjQ3NSwxMzEuMDUzMTEyIEMxNTguNTgzOTA2LDEyNy4xMTk0MTEgMTU0LjA1MTgwMiwxMjEu%0D%0ANDEyMTM1IDE0OC4wMzgxMjQsMTE0LjY0NjYxNyBDMTQ0Ljc3NDkwNiwxMTAuNzkwMzU2IDEzOS44%0D%0AODA0NSwxMDYuNjM3NTc0IDEzOC4zOTcxMDIsMTA0LjU2MDY4OSBDMTM2LjMyMDcxMSwxMDEuODkx%0D%0AMjU1IDEzNi45MTQwMDEsMTAwLjcwNDQyOSAxMzguMzk3MTAyLDk4LjMzMTUxNjIgQzEzOC4zOTcx%0D%0AMDIsOTguMzMxNTE2MiAxNTUuNDU0MTIzLDc0LjMwMzY0NzggMTU3LjIzMzk5Myw2Ni4xNDYyMjEx%0D%0AIFoiLz4KICA8L2c+Cjwvc3ZnPgo=">
+        </a>
+        <a target="_blank" href="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.deprecated=1&st.shareUrl=http%3A%2F%2Fwww.uraltest.ru%2Fo_kompanii%2F">
+          <img class="footericon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE1LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3Lncz%0D%0ALm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsi%0D%0AIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIzODkuNDA0cHgiIGhlaWdodD0iMzg3LjQxN3B4IiB2%0D%0AaWV3Qm94PSIwIDAgMzg5LjQwNCAzODcuNDE3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAz%0D%0AODkuNDA0IDM4Ny40MTciCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZmlsbD0i%0D%0AI0ZBQUI2MiIgZD0iTTM4OS40MDQsMzMwLjcyNGMwLDMxLjMxMi0yNS4zODMsNTYuNjkzLTU2LjY5%0D%0AMyw1Ni42OTNINTYuNjkzQzI1LjM4MiwzODcuNDE3LDAsMzYyLjAzNiwwLDMzMC43MjRWNTYuNjkz%0D%0ACgkJQzAsMjUuMzgyLDI1LjM4MiwwLDU2LjY5MywwaDI3Ni4wMThjMzEuMzExLDAsNTYuNjkzLDI1%0D%0ALjM4Miw1Ni42OTMsNTYuNjkzVjMzMC43MjR6Ii8+Cgk8cGF0aCBmaWxsPSIjRjc5MzFFIiBkPSJN%0D%0AMzg3LjQwNCwzMjkuMzE3YzAsMzAuOTg5LTI1LjEyMiw1Ni4xMS01Ni4xMTEsNTYuMTFINTguMTFj%0D%0ALTMwLjk4OSwwLTU2LjExLTI1LjEyMS01Ni4xMS01Ni4xMVY1OC4xCgkJQzIsMjcuMTExLDI3LjEy%0D%0AMiwxLjk5LDU4LjExLDEuOTloMjczLjE4M2MzMC45ODksMCw1Ni4xMTEsMjUuMTIyLDU2LjExMSw1%0D%0ANi4xMVYzMjkuMzE3eiIvPgoJPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE5NC40ODUsNTcuOTAx%0D%0AYy0zOC41OTMsMC02OS44NzgsMzEuMjg2LTY5Ljg3OCw2OS44NzhjMCwzOC41OTMsMzEuMjg1LDY5%0D%0ALjg4MSw2OS44NzgsNjkuODgxCgkJczY5Ljg3OC0zMS4yODgsNjkuODc4LTY5Ljg4MUMyNjQuMzYz%0D%0ALDg5LjE4NywyMzMuMDc4LDU3LjkwMSwxOTQuNDg1LDU3LjkwMXogTTE5NC40ODUsMTU2LjY2NwoJ%0D%0ACWMtMTUuOTUzLDAtMjguODg2LTEyLjkzNC0yOC44ODYtMjguODg3czEyLjkzMy0yOC44ODYsMjgu%0D%0AODg2LTI4Ljg4NnMyOC44ODYsMTIuOTMzLDI4Ljg4NiwyOC44ODZTMjEwLjQzOCwxNTYuNjY3LDE5%0D%0ANC40ODUsMTU2LjY2NwoJCXoiLz4KCTxnPgoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yMTku%0D%0AMTU1LDI1My4yNjJjMjcuOTc1LTUuNjk5LDQ0LjczOS0xOC45NDcsNDUuNjI2LTE5LjY1OGM4LjE4%0D%0ANi02LjU2NSw5LjUwMS0xOC41MjMsMi45MzYtMjYuNzEKCQkJYy02LjU2NC04LjE4Ni0xOC41MjEt%0D%0AOS41MDEtMjYuNzA5LTIuOTM3Yy0wLjE3MywwLjE0LTE4LjA1MywxMy44NTYtNDcuNDcyLDEzLjg3%0D%0ANmMtMjkuNDE4LTAuMDItNDcuNjc2LTEzLjczNi00Ny44NDktMTMuODc2CgkJCWMtOC4xODgtNi41%0D%0ANjQtMjAuMTQ1LTUuMjQ5LTI2LjcwOSwyLjkzN2MtNi41NjUsOC4xODctNS4yNSwyMC4xNDUsMi45%0D%0AMzYsMjYuNzFjMC44OTksMC43MjEsMTguMzU1LDE0LjMxNCw0Ny4xMTQsMTkuODc5CgkJCWwtNDAu%0D%0AMDgxLDQxLjg4OGMtNy4yODQsNy41NTQtNy4wNjUsMTkuNTgyLDAuNDg5LDI2Ljg2NmMzLjY4Nywz%0D%0ALjU1NSw4LjQzOSw1LjMyMiwxMy4xODcsNS4zMjJjNC45NzgsMCw5Ljk1MS0xLjk0NSwxMy42Nzkt%0D%0ANS44MTIKCQkJbDM3LjIzNS0zOS42NjVsNDAuOTk2LDM5LjkyMmM3LjQyOCw3LjQxNiwxOS40NTYs%0D%0ANy40MDQsMjYuODctMC4wMjFjNy40MTQtNy40MjYsNy40MDUtMTkuNDU2LTAuMDIxLTI2Ljg3TDIx%0D%0AOS4xNTUsMjUzLjI2MnoiLz4KCQk8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTkzLjUzNiwyMTcu%0D%0AODMyYy0wLjA0NywwLDAuMDQ2LDAuMDAxLDAsMC4wMDJDMTkzLjQ5LDIxNy44MzMsMTkzLjU4Mywy%0D%0AMTcuODMyLDE5My41MzYsMjE3LjgzMnoiLz4KCTwvZz4KPC9nPgo8L3N2Zz4K">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

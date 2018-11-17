@@ -10,6 +10,12 @@ body,html{
     height: 30px;
     width: 30px;
 }
+.other-info{
+    width: 110px;
+}
+.input-block{
+    display: block;
+}
 header{
     height: min-content;
 }
@@ -35,8 +41,20 @@ hr{
     font-size: 20pt;
     cursor: pointer;
 }
+.no-margin{
+    margin-left: 0px;
+}
 .tabs>input:checked + label {
     color: rgb(136, 77, 214);
 }
-#tab_11:checked ~ #txt_1,
-#tab_12:checked ~ #txt_2 { display: block; }
+.lowLayer>input:checked + label {
+    color:black;
+    background: rgb(243, 240, 240);
+}
+.lowLayer>label{
+    font-size: 10pt;
+    margin: 7px;
+}
+#tab_11:checked ~ #txt_11,
+#tab_21:checked ~ #txt_21,
+#tab_12:checked ~ #txt_12 { display: block; }
