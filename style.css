@@ -18,8 +18,11 @@ body,html{
 .other-info{
     width: 110px;
 }
-.input-block{
-    display: block;
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
 }
 header{
     height: min-content;
@@ -63,3 +66,26 @@ hr{
 #tab_11:checked ~ #txt_11,
 #tab_21:checked ~ #txt_21,
 #tab_12:checked ~ #txt_12 { display: block; }
+
+.data>input{
+    background-color: rgb(235, 229, 229);
+}
+.data{
+    background-color: rgb(235, 229, 229);
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+   background: -webkit-gradient(linear, 0 0, 0  100%, from(rgb(240, 208, 244)), to(#D0ECF4), color-stop(0.5, rgb(219, 158, 248)));
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+   padding: 3px 7px;
+   color: #333;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   border: 1px solid #666;
+  }
+
