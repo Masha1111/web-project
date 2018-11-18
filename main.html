@@ -15,7 +15,7 @@
                 <p><a href="mailto:uraltest@uraltest.ru">uraltest@uraltest.ru</a></p>
                 <p><a href="http://www.uraltest.ru/">http://www.uraltest.ru/</a></p>
                 <p><a href="http://www.uraltest.ru/o_kompanii/">Информация о компании</a></p>
-                <p><a href="http://www.uraltest.ru/o_kompanii/abankovskie_rekvizityi/">Показать реквизиты</a></p>
+                <p><a href="http://www.uraltest.ru/o_kompanii/bankovskie_rekvizityi/">Показать реквизиты</a></p>
               </div>
               <div class="col-sm-5 parentheight">
                   <img id="headerimg" src="https://github.com/Masha1111/web-project/blob/master/icons/logo.jpg?raw=true" alt="logo">
@@ -68,7 +68,8 @@
                 </form>
               </div>
               <div id="txt_22">
-               <form class="content2">
+               <form>
+                <p class="advice">Сформируйте платежку и загрузите в свой банк для подписи</p>
                 <div class="labels">
                   <label for="inn">От кого</label>
                   <input required pattern="[0-9]{10}|[0-9]{12}" type="text"
@@ -77,8 +78,8 @@
                   <input required pattern="[0-9]{9}" type="text"
                     id="bic" placeholder="9 цифр">
                   <label for="number">Номер счета</label>
-                  <input required pattern="[0-9]{16}" type="text"
-                    id="number"  placeholder="16 цифр">
+                  <input required pattern="[0-9]{20}" type="text"
+                    id="number"  placeholder="20 цифр">
                   <label for="nds">НДС</label>
                   <select id="nds"required>
                       <option value="" disabled selected hidden>
@@ -96,8 +97,69 @@
               </div>
           </div>
           <div id="txt_12">
-              <p>Вторая вкладка</p>
+            <form>
+              <p class="advice">Создайте платежку, а ФБУ "Уралтест" 
+                подпишет её у себя в интернет-банке</p>
+              <div class="labels">
+                <label for="inn">От кого</label>
+                <input required pattern="[0-9]{10}|[0-9]{12}" type="text"
+                  id="inn" placeholder="ИНН">
+                <label for="bic">БИК</label>
+                <input required pattern="[0-9]{9}" type="text"
+                  id="bic" placeholder="9 цифр">
+                <label for="number">Номер счета</label>
+                <input required pattern="[0-9]{20}" type="text"
+                  id="number"  placeholder="20 цифр">
+                <label for="nds">НДС</label>
+                <select id="nds"required>
+                  <option value="" disabled selected hidden>
+                    Выберите один из вариантов
+                  </option>
+                  <option>НДС 18%</option>
+                  <option>НДС 10%</option>
+                  <option>без НДС</option>
+                </select>
+                <label for="phone">Номер телефона</label>
+                <input required pattern="[0-9]{11}" placeholder="89000000000">
+                <button type="submit" id="submit-card-data">
+                  Создать платёж
+                </button>
+              </div>
+            </form>
           </div>
+      </div>
+      <hr>
+      <div class="company-info">
+        <div>
+          <a href="http://www.uraltest.ru/services/zapis_na_sdachu_ili_poluchenie_sredstv_izmereniy/">
+            <img class="picture" src="http://362047.ssl.1c-bitrix-cdn.ru/bitrix/templates/innet_corp2_6/images/content/planirovanie.png?14395428642099" alt="picture">
+            <p class="product">Запись на сдачу или получение средств измерений</p>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.uraltest.ru/uslugi/standartizatsiya/rasprostranenie-ofitsialnykh-izdaniy-dokumentov-v-oblasti-standartizatsii/">
+            <img class="picture" src="http://362047.ssl.1c-bitrix-cdn.ru/bitrix/templates/innet_corp2_6/images/content/price.png?14410842391516" alt="picture">
+            <p class="product">Заявка на проведение испытаний</p>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.uraltest.ru/services/priem-si-na-poverku-oformlenie-dogovora/punkt-priema-si-v-g-sredneuralske/">
+            <img class="picture" src="http://362047.ssl.1c-bitrix-cdn.ru/bitrix/templates/innet_corp2_6/images/content/priemsi.png?1441084248262" alt="picture">
+            <p class="product">Прием средств измерений в филиалах</p>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.uraltest.ru/services/proverka_oplatyi_schetov_i_gotovnosti_sredstv_izmereniy/">
+            <img class="picture" src="http://362047.ssl.1c-bitrix-cdn.ru/bitrix/templates/innet_corp2_6/images/content/proverka_shetov.png?14410842492279" alt="picture">
+            <p class="product">Проверка оплаты счетов</p>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.uraltest.ru/uslugi/seminaryi/">
+            <img class="picture" src="http://362047.ssl.1c-bitrix-cdn.ru/bitrix/templates/innet_corp2_6/images/content/seminar.png?14465274986407" alt="picture">
+            <p class="product">Семинары, проводимые ФБУ "Уралтест"</p>
+          </a>
+        </div>
       </div>
     </main>
     <footer>
